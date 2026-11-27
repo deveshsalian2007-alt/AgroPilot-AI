@@ -13,7 +13,7 @@ This verifies visible folder names only. It does not verify source contents, run
 | Area | Status | Notes |
 |---|---|---|
 | Repository structure | Present | Based on screenshot |
-| AI implementation | Not verified | Inspect source |
+| AI implementation | Partial (live Open-Meteo -> pipeline verified) | Schemas, Open-Meteo weather tool (live Vellore verified), hardened validators, normaliser, deterministic EN/TA reporter, orchestrator, smoke test & 20 offline unit tests in `agents-devesh/`; Bedrock & cross-module wiring pending |
 | Backend implementation | Not verified | Inspect source |
 | Frontend implementation | Not verified | Inspect source |
 | Geospatial implementation | Not verified | Inspect source |

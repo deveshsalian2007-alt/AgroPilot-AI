@@ -28,15 +28,15 @@ Statuses: TODO / IN_PROGRESS / BLOCKED / DONE. Do not mark DONE without evidence
 - [ ] Return evidence using agreed schema.
 
 ## Member 3 — AI and Agents
-- [ ] Inspect existing `agents-devesh/` code and dependencies.
+- [x] Inspect existing `agents-devesh/` code and dependencies.
 - [ ] Agree evidence schema with Member 2.
 - [ ] Agree invocation interface with Member 1.
-- [ ] Implement input validation and normalisation.
-- [ ] Implement deterministic report fallback.
-- [ ] Verify Bedrock access; add provider adapter if feasible.
-- [ ] Implement orchestrator and report generation.
-- [ ] Add evidence-grounding and output-validation tests.
-- [ ] Test English and Tamil output.
+- [x] Implement input validation and normalisation.
+- [x] Implement deterministic report fallback.
+- [ ] Verify Bedrock access; add provider adapter if feasible. (Interface & placeholder `BedrockLLMProvider` added; live Bedrock call pending verification)
+- [x] Implement orchestrator and report generation. (Deterministic pipeline complete; live LLM integration pending)
+- [x] Add evidence-grounding and output-validation tests.
+- [x] Test English and Tamil output. (Verified with synthetic test fixtures)
 - [ ] Integrate with backend and test failure paths.
 
 ## Member 4 — Frontend
